@@ -143,4 +143,4 @@ You can contact me using either of these social media platforms or send me an em
 [issues-shield]: https://img.shields.io/github/issues/codehasan/BurgerHouse.svg?style=for-the-badge
 [issues-url]: https://github.com/codehasan/BurgerHouse/issues
 [license-shield]: https://img.shields.io/github/license/codehasan/BurgerHouse.svg?style=for-the-badge
-[license-url]: https://github.com/codehasan/BurgerHouse/blob/master/LICENSE.txt
+[license-url]: https://github.com/codehasan/BurgerHouse/blob/master/LICENSE
