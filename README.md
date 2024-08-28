@@ -11,15 +11,16 @@
 </div>
 <br />
 <div align="center">
-  <a href="https://codehasan.github.io/BurgerHouse">
-    <img src="assets/logo-white.png" alt="Logo" width="409" height="90" />
+  <a href="https://github.com/anuraghazra/github-readme-stats">
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="assets/logo-white.png">
+      <img alt="Logo" src="assets/logo-dark.png">
+    </picture>
   </a>
 
-  <h3 align="center">Burger House</h3>
+  <h3 align="center">Where every bite feels like home!</h3>
 
   <p align="center">
-    Where every bite feels like home!
-    <br />
     <a href="https://codehasan.github.io/BurgerHouse">View Demo</a>
     &nbsp;
     |
