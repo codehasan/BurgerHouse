@@ -41,6 +41,7 @@
 
 .btn {
   padding: 1rem 1.5rem;
+  border-radius: 1rem;
   outline: none;
   border: none;
   font-size: 1rem;
@@ -52,6 +53,10 @@
 
 .btn:hover {
   background-color: var(--primary-color);
+}
+
+.btn-square {
+  border-radius: 0;
 }
 
 img {
@@ -283,6 +288,11 @@ nav {
   gap: 2rem;
   padding: 1rem;
   box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.1);
+  border-radius: 1rem;
+}
+
+.event__image img {
+  border-radius: 1rem;
 }
 
 .event__details {
@@ -496,6 +506,7 @@ nav {
   .event__content {
     grid-template-columns: repeat(2, 1fr);
     align-items: center;
+    padding-left: 2rem;
   }
 
   .event__image {
