@@ -83,6 +83,7 @@ body {
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
+  min-height: 100vh;
 }
 
 nav {
@@ -337,6 +338,8 @@ nav {
   border: 1px solid var(--text-dark);
   font-size: 1rem;
   color: var(--text-dark);
+  width: 100%;
+  background: transparent;
 }
 
 .reservation__container input::placeholder {
@@ -426,6 +429,10 @@ nav {
 }
 
 @media (width > 768px) {
+  .header {
+    min-height: 0px;
+  }
+
   nav {
     position: static;
     padding: 2rem 1rem;
