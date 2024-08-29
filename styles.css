@@ -257,6 +257,7 @@ nav {
   border-radius: 1rem;
   text-align: center;
   transition: 0.3s;
+  box-shadow: 5px 5px 30px rgba(0, 0, 0, 0.1);
 }
 
 .order__card:hover {
@@ -508,6 +509,10 @@ nav {
 
   .order__grid {
     grid-template-columns: repeat(3, 1fr);
+  }
+
+  .order__card {
+    box-shadow: none;
   }
 
   .event__content {
