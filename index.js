@@ -2,6 +2,7 @@ const menuBtn = document.getElementById("menu-btn");
 const navLinks = document.getElementById("nav-links");
 const menuBtnIcon = menuBtn.querySelector("i");
 
+// Menu icon event handler in mobile screen
 menuBtn.addEventListener("click", (e) => {
   navLinks.classList.toggle("open");
 
@@ -9,32 +10,36 @@ menuBtn.addEventListener("click", (e) => {
   menuBtnIcon.setAttribute("class", isOpen ? "ri-close-line" : "ri-menu-line");
 });
 
+// Hide navigation menu when a child is clicked
 navLinks.addEventListener("click", (e) => {
   navLinks.classList.remove("open");
   menuBtnIcon.setAttribute("class", "ri-menu-line");
 });
 
-const scrollRevealOption = {
+// Scroll reveal animation basic configuration
+const scrollRevealOptions = {
   distance: "50px",
   origin: "bottom",
   duration: 1000,
 };
 
 ScrollReveal().reveal(".header__image img", {
-  ...scrollRevealOption,
+  ...scrollRevealOptions,
   origin: "right",
 });
+
 ScrollReveal().reveal(".header__content h2", {
-  ...scrollRevealOption,
+  ...scrollRevealOptions,
   delay: 500,
 });
+
 ScrollReveal().reveal(".header__content h1", {
-  ...scrollRevealOption,
+  ...scrollRevealOptions,
   delay: 1000,
 });
 
 ScrollReveal().reveal(".order__card", {
-  ...scrollRevealOption,
+  ...scrollRevealOptions,
   interval: 500,
 });
 
